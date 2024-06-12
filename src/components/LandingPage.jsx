@@ -1,6 +1,7 @@
 import { FaArrowUpLong } from "react-icons/fa6";
 
 function LandingPage() {
+    
     const headings = ["We Create", "Eye-Opening", "Presentations"];
     const footerText = ["For public and private companies", "From the first pitch to IPO"];
 

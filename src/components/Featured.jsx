@@ -51,10 +51,7 @@ function Featured() {
       </div>
 
       <div className="px-20 pt-10">
-      <h3 className=" pt-10">
-        TRAWA
-      </h3>
-        <div className="cards w-full flex gap-10 mt-10">
+            <div className="cards w-full flex gap-10 mt-10">
           <div className="cardcontainer relative  w-1/2 h-[75vh] ">
             <h1 className="absolute text-[#cdea68] left-full -translate-x-1/2 top-1/2 -translate-y-1/2  z-[9] leading-none tracking-tighter text-8xl">
               {"TRAWA".split('').map((item, index) => (
@@ -69,16 +66,15 @@ function Featured() {
               />
             </div>
             <div className="flex gap-5 p-4">
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">AUDIT</button>
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">COPYWRITING</button>
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">SALES DECK</button>
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">SLIDER DESIGN</button>
+                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">BRAND IDENTENTY</button>
+                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">DESIGN RESEARCH</button>
+                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">INVESTOR DECK</button>
             </div>
           </div>
 
           <div className="cardcontainer relative  w-1/2 h-[75vh]">
             <h1 className key="absolute text-[#cdea68] right-full translate-x-1/2 top-1/2 -translate-y-1/2  z-[9] leading-none tracking-tighter text-8xl">
-              {"PREMIUM BLEND".split("").map((item, index) => (
+              {"".split("").map((item, index) => (
                 <span>{item}</span>
               ))}
             </h1>
@@ -90,8 +86,7 @@ function Featured() {
               />
             </div>
             <div className="flex gap-5 p-4 border-rounded">
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">AGENCY</button>
-                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">COMPANY PRESENTATION</button>
+                <button className="bg-blue-300 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded">BRANDED TEMPLATE</button>
             </div>
           </div>
         </div>
